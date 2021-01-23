@@ -1,0 +1,50 @@
+body{
+  background-image:url(pexels.jpg);
+  background-size: cover;
+}
+h1{
+  text-shadow: 2px  1px grey;
+  text-align: center;
+}
+h2{
+  text-shadow: 2px  1px 3px grey;
+  text-decoration:underline;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
+  font-variant: small-caps;
+}
+a:hover{
+  text-shadow: 2px 2px 4px grey;
+  color: green;
+}
+span{
+  text-shadow: 2px 2px 3px red;
+}
+p{
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: cursive;
+}
+.head{
+  text-shadow: 1px 1px 3px #d72323;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: cursive;
+  color: blue;
+}
+.info{
+  text-shadow: 1px 1px 3px #035aa6;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: sans-serif;
+  line-height: normal;
+  color: red;
+}
+table{
+  text-align: center;
+  margin: 0 auto 0 auto;
+}

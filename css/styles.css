@@ -1,0 +1,189 @@
+body {
+  font-family: "Montserrat";
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+p {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+/* ************************************************header******************************* */
+
+.navbar {
+  padding: 0 0 0.7rem;
+}
+
+.navbar-brand {
+  text-shadow: 2px 2px 4px white;
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight:bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+text-shadow: 1px 1px 4px white;
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+
+.navbar-nav{
+padding: 0 0 0 50%;
+}
+
+/* ******************************************************************************* */
+
+/* ***********************************title********************************************* */
+
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+
+
+.white-section {
+  background-color: #fff;
+}
+
+.big-heading {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 2;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+.centre {
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.colored-section {
+  background-color: #ff2e63;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 3%;
+}
+
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#area-of-interest,#personal-info,#declaration{
+  padding: 10%;
+}
+
+
+
+#work-experience {
+  padding-bottom: 3%;
+  padding-top: 3%;
+  position: relative;
+}
+
+ #edu-carousel .card{
+   text-align: center;
+
+ }
+
+ #edu-carousel {
+   padding: 85px;
+ }
+
+#obj{
+  text-align: center;
+  padding: 9%;
+
+}
+#skills-carousel{
+  padding: 85px;
+}
+.skills-h3{
+  margin-top: 3%;
+}
+div .table {
+  margin-left: 50px;
+  width: 720px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.social-icon {
+margin: 50px 25px 0px 20px;
+}
+
+.foot-section{
+
+  padding: 7% 15%;
+}
+.footer-color{
+  background-color: #08d9d6;
+}
+
+.foot-link{
+  color: #fff;
+}
+a:hover{
+  color: #ff2e63;
+}
+
+.carousel-inner-Skills {
+    position: relative;
+    width: 200%;
+    overflow: hidden;
+}
+
+.title-img{
+  image-orientation: initial;
+    border-radius: 98%;
+    align-items: center;
+    padding: 0px 10px 0px 0px;
+    margin-left: 30px;
+}
+
+.colored-section-p {
+  text-align: center;
+  color: #faebd7;
+}
+@media (max-width: 1000px) {
+
+  .carousel-inner {
+      position: relative;
+      width: 110%;
+      overflow: hidden;
+  }
+  .carousel-inner-Skills {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+  }
+
+  div .table {
+      margin-left: 12%;
+      width: 363px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+      text-align: center;
+  }
+  #skills-carousel {
+    padding: 0px 0px 0px 0px;
+}
+}

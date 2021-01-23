@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="css/form.css">
+  <meta charset="utf-8">
+  <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+  <form action="index.html">
+    <div class="container">
+      <center>
+        <h1>REGISTRATION</h1>
+      </center>
+      <hr>
+      <label><b>First Name</b> </label>
+      <input type="text" name="Firstname" maxlength="14" size="15" placeholder="Firstname" required/>
+      <label><b>Middle Name</b> </label>
+      <input type="text" name="Middlename" maxlength="15" size="15"placeholder="Middlename" required/>
+      <label><b>Last Name</b> </label>
+      <input type="text" name="Lastname" maxlength="15" size="15"placeholder="Lastname" required/>
+<div>
+  <label><b>Course:</b> </label>
+  <select>
+    <option value="Course">Course</option>
+    <option value="B.E">B.E</option>
+    <option value="B.Tech">B.Tech</option>
+    <option value="MBA">MBA</option>
+    <option value="MCA">MCA</option>
+    <option value="M.Tech">M.Tech</option>
+  </select>
+</div>
+<div >
+   <label><b>Gender</b> </label><br>
+        <input type="radio" name="gender" id="male" value="male" checked>MALE
+        <input type="radio" name="gender" value="FEMALE">FEMALE
+        <input type="radio" name="gender" value="OTHER">OTHER
+
+</div>
+    <label><b>PHONE</b> </label>
+    <input type="text" name="Country code" value="+91" size="2"placeholder="Country code" />
+    <input type="text" name="Phone" size="10" / maxlength="10" placeholder="phone no" />
+    <label><b>CURRENT ADDRESS</b> </label>
+    <textarea name="Permanent address" rows="5" cols="80" placeholder="address"></textarea>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" name="email" placeholder="enter your mail id" required>
+
+    <label for="psw"><b>password</b> </label>
+    <input type="password" name="psw" size="15" maxlength="8" placeholder="enter password"><br>
+    <label for="r-psw"><b>Re-type Password</b> </label>
+    <input type="password" name="r-psw" size="15" maxlength="8" placeholder="re-enter password">
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  </form>
+</body>
+</html>
