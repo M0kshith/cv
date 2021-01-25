@@ -164,7 +164,7 @@ a:hover{
   text-align: center;
   color: #faebd7;
 }
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
 
   .carousel-inner {
       position: relative;
